@@ -7,6 +7,11 @@ li {
     cursor: pointer;
 }
 
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
 button {
     margin-left: 10px;
 }
