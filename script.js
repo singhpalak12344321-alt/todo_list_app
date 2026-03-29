@@ -2,31 +2,30 @@ let input = document.getElementById("taskInput");
 let button = document.getElementById("addBtn");
 let list = document.getElementById("taskList");
 
-addBtn.addEventListener("click", function() {
+button.addEventListener("click", function() {
 
-    const taskText = input.value;
+    let taskText = input.value;
 
-    if(taskText === "") return;
+    if(taskText === "") {
+        alert("Please enter a task"):
+        return;
+    }
 
     // create li
-    const li = document.createElement("li");
-    li.innerText = taskText;
-
-    // toggle complete
-    li.addEventListener("click", function() {
-        li.classList.toggle("completed");
-    });
+    let li = document.createElement("li");
+    li.textContent = taskText;
+    
 
     // delete button
-    const deleteBtn = document.createElement("button");
-    deleteBtn.innerText = "Delete";
+    let deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "X";
 
-    deleteBtn.addEventListener("click", function(event) {
-        event.stopPropagation(); // prevent toggle
+    deleteBtn.addEventListener("click", function() { 
         li.remove();
     });
 
     li.appendChild(deleteBtn);
+    
     list.appendChild(li);
 
     input.value = ""; // clear input
