@@ -14,7 +14,11 @@ button.addEventListener("click", function() {
     // create li
     let li = document.createElement("li");
     li.textContent = taskText;
-    
+
+    // toggle complete
+    li.addEventListener("click", function() {
+        li.classList.toggle("completed");
+    });
 
     // delete button
     let deleteBtn = document.createElement("button");
