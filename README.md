@@ -1,9 +1,4 @@
 # 📋 ToDo List App  
-
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-blue)
-![Made with ❤](https://img.shields.io/badge/Made%20With-%E2%9D%A4-red)
-
 ---
 
 ## ✨ About
@@ -38,8 +33,6 @@ Perfect for keeping your daily tasks organized!
 
 ---
 
-## 💻 How to Use
+## Author
 
-1. Clone the repository:  
-```bash
-git clone https://github.com/your-username/your-repo.git
+Palak Singh
