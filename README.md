@@ -57,7 +57,8 @@ This app allows users to **add, delete, and mark tasks as completed** dynamicall
 
 ## 📸 Preview
 
-> <img width="973" height="660" alt="image" src="https://github.com/user-attachments/assets/525492bf-1bdd-48e7-a633-b74e9b271875" />
+> <img width="978" height="992" alt="image" src="https://github.com/user-attachments/assets/ae3df10c-4c3c-4604-9983-f107af109707" />
+
 
 
 ---
