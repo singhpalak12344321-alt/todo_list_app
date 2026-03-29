@@ -1,18 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Todo App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📋 ToDo List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & body */
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body { background: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; }
+
+    /* Container */
+    .todo-container {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    /* Title */
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Input area */
+    .input-area {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .input-area input {
+      flex: 1;
+      padding: 10px 15px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      outline: none;
+      transition: border 0.2s;
+    }
+    .input-area input:focus { border-color: #4f46e5; }
+    .input-area button {
+      background: #4f46e5;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .input-area button:hover { background: #3730a3; }
+
+    /* List */
+    ul {
+      list-style: none;
+    }
+    li {
+      background: #f9f9f9;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+    }
+    li.done { text-decoration: line-through; color: #888; }
+    li:hover { background: #e0e0e0; }
+
+    /* Buttons inside list */
+    .btns button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      margin-left: 8px;
+      font-size: 16px;
+      transition: transform 0.2s;
+    }
+    .btns button:hover { transform: scale(1.2); }
+
+    /* Clear all button */
+    .clear-btn {
+      margin-top: 15px;
+      width: 100%;
+      background: #ef4444;
+      color: #fff;
+      border: none;
+      padding: 10px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .clear-btn:hover { background: #b91c1c; }
+
+  </style>
 </head>
 <body>
 
-<h2>My Todo List</h2>
+  <div class="todo-container">
+    <h1>📋 ToDo List</h1>
+    <div class="input-area">
+      <input type="text" id="todo-input" placeholder="Add a new task..." />
+      <button id="add-btn">Add</button>
+    </div>
+    <ul id="todo-list"></ul>
+    <button class="clear-btn" id="clear-all">Clear All</button>
+  </div>
 
-<input type="text" id="taskInput" placeholder="Enter task...">
-<button id="addBtn">Add Task</button>
-
-<ul id="taskList"></ul>
-
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
