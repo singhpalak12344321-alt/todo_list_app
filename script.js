@@ -7,7 +7,7 @@ button.addEventListener("click", function() {
     let taskText = input.value;
 
     if(taskText === "") {
-        alert("Please enter a task"):
+        alert("Please enter a task");
         return;
     }
 
