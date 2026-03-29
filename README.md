@@ -1,83 +1,45 @@
-# 📝 Dynamic Todo List App
+# 📋 ToDo List App  
 
-A simple and interactive **Todo List Web App** built using **HTML, CSS, and JavaScript**.
-This app allows users to **add, delete, and mark tasks as completed** dynamically.
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Language](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-blue)
+![Made with ❤](https://img.shields.io/badge/Made%20With-%E2%9D%A4-red)
+
+---
+
+## ✨ About
+
+A simple, clean, and responsive **ToDo List app** built with **HTML, CSS, and JavaScript**.  
+
+- Add tasks quickly  
+- Mark tasks as done ✔️  
+- Delete tasks individually 🗑️  
+- Clear all tasks at once  
+
+Perfect for keeping your daily tasks organized!  
+
+---
+
+## 🖥️ Screenshot
+
+<p align="center">
+  <img width="978" height="992" alt="image" src="https://github.com/user-attachments/assets/5a80de19-a0d1-4b6b-8a69-d0370ce3b943" />
+
+</p>
 
 ---
 
 ## 🚀 Features
 
-✨ Add new tasks
-🗑️ Delete tasks
-✔️ Mark tasks as completed (toggle)
-⚡ Real-time DOM manipulation
-🎯 Simple and user-friendly interface
+- ✅ Add new tasks  
+- ✨ Mark tasks as completed  
+- 🗑️ Delete tasks individually  
+- 🧹 Clear all tasks  
+- 📱 Responsive design  
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 How to Use
 
-* **HTML** – Structure
-* **CSS** – Styling
-* **JavaScript** – Functionality (DOM + Events)
-
----
-
-## 📂 Project Structure
-
-```
-📁 todo-app
- ┣ 📄 index.html
- ┣ 📄 style.css
- ┗ 📄 script.js
-```
-
----
-
-## 💻 How It Works
-
-1. Enter a task in the input field
-2. Click the **Add** button
-3. Task gets added to the list
-4. Click on a task → mark as completed
-5. Click **X** → remove task
-
----
-
-## 🧠 Key Concepts Used
-
-* DOM Manipulation
-* Event Listeners (`click`)
-* `classList` (add / toggle)
-* `createElement()`
-* `appendChild()`
-* `remove()`
-
----
-
-## 📸 Preview
-
-> <img width="978" height="992" alt="image" src="https://github.com/user-attachments/assets/ae3df10c-4c3c-4604-9983-f107af109707" />
-
-
-
----
-
-## ⚡ Future Improvements
-
-* 🔄 Save tasks using Local Storage
-* 📱 Responsive design
-* 🎨 Better UI/UX
-* ✏️ Edit tasks feature
-
----
-
-## 🧑‍💻 Author
-
-Palak Singh
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
+1. Clone the repository:  
+```bash
+git clone https://github.com/your-username/your-repo.git
